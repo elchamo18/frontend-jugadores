@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #be0b0b;
+  margin: 0;
+  padding: 0;
+  /* background-image: url(123.jpg); */
+}
+
+h1 {
+  background-color: #bd050f;
+  color: #fff;
+  padding: 10px;
+}
+
+.jugador {
+  border: 1px solid #0e040c;
+  background-color: #7b1a1a;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.jugador img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ea099f;
+}
+
+.jugador h2 {
+  margin: 10px 0;
+}
+
+.jugador p {
+  margin: 5px 0;
+}
+
+h2 {
+  text-align: center;
+  background-color: #960808;
+  color: #fff;
+  padding: 10px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #dbd7d7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px hsla(0, 90%, 37%, 0.102);
+}
+
+image {
+  background-image: url(/123.jpg);
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #880c0c;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #a90d0d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+*/ input[type="submit"]:hover {
+  background-color: #960c0c;
+}

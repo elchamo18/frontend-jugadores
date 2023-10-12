@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Lista de Jugadores</title>
+  </head>
+  <body>
+    <div id="fetch-prueba"></div>
+    <h1>jugadores del america de cali</h1>
+
+    <div class="jugador">
+      <img src="imagen jugadores.png" alt="Jugador 1" />
+      <h2>Jugador 1</h2>
+      <p>nombre:carlos darwin quintero</p>
+      <p>Edad: 35 años</p>
+      <p>salarios:300000</p>
+      <button>editar</button>
+      <button>eliminar</button>
+    </div>
+
+    <div class="jugador">
+      <img src="imagen jugadores.png" alt="Jugador 2" />
+      <h2>Jugador 2</h2>
+      <p>nombre:facundo suarez</p>
+      <p>Edad: 28 años</p>
+      <p>salarios: 1000000000</p>
+      <button>editar</button>
+      <button>eliminar</button>
+    </div>
+
+    <div class="jugador">
+      <img src="imagen jugadores.png" alt="Jugador 3" />
+      <h2>Jugador 3</h2>
+      <p>nombre: cristian barrios</p>
+      <p>Edad: 25 años</p>
+      <p>salarios: 1000000000</p>
+      <button>editar</button>
+      <button>eliminar</button>
+    </div>
+
+    <div class="jugador">
+      <img src="imagen jugadores.png" alt="Jugador 4" />
+      <h2>Jugador 4</h2>
+      <p>nombre:adrian ramos</p>
+      <p>Edad: 37 años</p>
+      <p>salarios:350000</p>
+      <button>editar</button>
+      <button>eliminar</button>
+    </div>
+
+    <head>
+      <title>ingresa un jugador</title>
+    </head>
+
+    <h2>Crear un jugador</h2>
+    <form action="procesar_formulario.php" method="POST">
+      <label for="nombre">Nombre del Jugador:</label>
+      <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" required /><br /><br />
+
+      <label for="salarios">salarios:</label>
+      <input type="text" id="salarios" name="salarios" required /><br /><br />
+
+      <input type="submit" value="crear" />
+
+    
+    </form>
+    <head>
+      <title>actualizar jugador</title>
+    </head>
+
+    <h2>Crear un jugador</h2>
+    <form action="procesar_formulario.php" method="POST">
+      <label for="nombre">Nombre del Jugador:</label>
+      <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" required /><br /><br />
+
+      <label for="salarios">salarios:</label>
+      <input type="text" id="salarios" name="salarios" required /><br /><br />
+
+      <input type="submit" value="crear" />
+    <script src="main.js"></script>
+  </body>
+</html>
