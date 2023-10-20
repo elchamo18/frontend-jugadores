@@ -11,7 +11,6 @@ body {
   background-image: url(123.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  backdrop-filter: blur(6px);
 }
 
 h1 {
@@ -75,7 +74,8 @@ input[type="number"] {
   border-radius: 5px;
 }
 
-input[type="submit"] {
+input[type="submit"],
+#cancelar-editar {
   background-color: #a90d0d;
   color: #fff;
   border: none;
@@ -83,6 +83,45 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
 }
-input[type="submit"]:hover {
+
+input[type="submit"]:hover,
+#cancelar-editar:hover {
   background-color: #960c0c;
+}
+
+.editar {
+  background-color: #0e040cb1;
+  backdrop-filter: blur(6px);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.editar.oculto {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.editar form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.alert {
+  padding: 15px;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
