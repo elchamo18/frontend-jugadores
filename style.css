@@ -60,9 +60,6 @@ form {
   box-shadow: 0 0 10px hsla(0, 90%, 37%, 0.102);
 }
 
-image {
-  background-image: url(/123.jpg);
-}
 label {
   display: block;
   font-weight: bold;

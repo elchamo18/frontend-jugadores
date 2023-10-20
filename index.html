@@ -6,7 +6,6 @@
     <title>Lista de Jugadores</title>
   </head>
   <body>
-    <div id="fetch-prueba"></div>
     <h1>jugadores del america de cali</h1>
 
     <div class="jugador">
@@ -54,7 +53,7 @@
     </head>
 
     <h2>Crear un jugador</h2>
-    <form action="procesar_formulario.php" method="POST">
+    <form id="crear-jugador" method="POST">
       <label for="nombre">Nombre del Jugador:</label>
       <input type="text" id="nombre" name="nombre" required /><br /><br />
 
@@ -71,7 +70,7 @@
     </head>
 
     <h2>Editar un jugador</h2>
-    <form action="procesar_formulario.php" method="POST">
+    <form id="editar-jugador" method="POST">
       <label for="nombre">Nombre del Jugador:</label>
       <input type="text" id="nombre" name="nombre" required /><br /><br />
 
