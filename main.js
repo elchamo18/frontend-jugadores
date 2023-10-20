@@ -55,7 +55,7 @@ function pintarJugadorEnDOM(jugador) {
   jugadorHTML.setAttribute("data-salario", jugador.salario);
   jugadorHTML.id = jugador.id_jugador;
   jugadorHTML.innerHTML = `
-  <img src="imagen jugadores.png" alt="Escudo del America" />
+  <img src="america.png" alt="Escudo del America" />
   <h2>Jugador ${jugador.id_jugador}</h2>
   <p>Nombre: ${jugador.nombre}</p>
   <p>Edad: ${jugador.edad} años</p>
@@ -90,7 +90,7 @@ function modificarJugadorEnDOM(jugador) {
   jugadorHTML.setAttribute("data-edad", jugador.edad);
   jugadorHTML.setAttribute("data-salario", jugador.salario);
   jugadorHTML.innerHTML = `
-  <img src="imagen jugadores.png" alt="Escudo del America" />
+  <img src="america.png" alt="Escudo del America" />
   <h2>Jugador ${jugador.id_jugador}</h2>
   <p>Nombre: ${jugador.nombre}</p>
   <p>Edad: ${jugador.edad} años</p>
