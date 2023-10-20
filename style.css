@@ -1,12 +1,17 @@
-/* styles.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #be0b0b;
-  margin: 0;
-  padding: 0;
-  /* background-image: url(123.jpg); */
+  background-image: url(123.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(6px);
 }
 
 h1 {
@@ -18,6 +23,7 @@ h1 {
 .jugador {
   border: 1px solid #0e040c;
   background-color: #7b1a1a;
+  color: #fff;
   margin: 20px;
   padding: 10px;
   display: inline-block;
@@ -80,6 +86,6 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
 }
-*/ input[type="submit"]:hover {
+input[type="submit"]:hover {
   background-color: #960c0c;
 }
